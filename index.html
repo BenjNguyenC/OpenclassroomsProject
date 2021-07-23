@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- meta description pour le référencement -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Réservia</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- balise link canonical -->
+        <!-- script vers fontawesome -->
     </head>
     <body>
         <header>
@@ -19,23 +22,41 @@
                         <li>
                             <a href="#">Activité</a>
                         </li>
-                        <li><a href="#">S'inscrire</a>
+                        <li>
+                            <a href="#">S'inscrire</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p></p>
-            <form action="">
+            <form action="" method="get">
                 <p>Filtre et barre de recherche</p>
-                <input type="text">
+                <label for="search">Rechercher</label>
+                <input id="search" name="search" type="text">
+                <!-- rajouter icone loupe -->
             </form>
         </header>
-    
+
         <section>
             <div id="contenu" class="hebergements">
                 <article class="hebergement-item">
                     <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière"/>
+                    <h3>Texte</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam
+                        autem consequuntur harum impedit odit. Corporis dolorem error,
+                        eum impedit incidunt laboriosam nesciunt reprehenderit tempora!
+                        Dolorum illum laudantium modi ullam.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star blue"></i>
+                        <i class="fas fa-star grey"></i>
+                    </div>
+                </article>
+                <article class="hebergement-item">
                     <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier"/>
                     <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Autel les Mouettes"/>
                     <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du Port"/>
@@ -43,30 +64,70 @@
                     <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
                 </article>
             </div>
-            <aside>
-                <p>Contenu Populaire</p>
+            <aside class="populaire">
+                <h2>Contenu Populaire</h2>
                 <article class="populaire-item">
-                    <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=""/>
+                    <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="texte alternatif pour le referencement"/>
+                    <div class="text">
+                        <h3>titre</h3>
+                        <p>some texte</p>
+                        <div class="stars">
+                            <i class="fas fa-star blue"></i>
+                            <i class="fas fa-star blue"></i>
+                            <i class="fas fa-star blue"></i>
+                            <i class="fas fa-star blue"></i>
+                            <i class="fas fa-star grey"></i>
+                        </div>
+                    </div>
+                </article>
+                <article class="populaire-item">
                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
                     <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
                 </article>
             </aside>
         </section>
-        
+
         <section>
-            <div>
-                <h2>Activité à Marseille</h2>
-                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg-" alt="">
-                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+            <h2>Activité à Marseille</h2>
+            <!-- travailler sur du grid -->
+            <div class="activities">
+                <div class="activity-item">
+                    <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+                    <h2>titre</h2>
+                </div>
+                <div>
+                    <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+                    <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg-" alt="">
+                    <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+                    <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+                    <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+                </div>
             </div>
         </section>
-    
+
         <footer>
-            <p>Contact lien</p>
+            <div class="footer-column">
+                <h2>titre</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Lien</a>
+                        </li>
+                        <li>
+                            <a href="#">Lien</a>
+                        </li>
+                        <li>
+                            <a href="#">Lien</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-column">
+
+            </div>
+            <div class="footer-column">
+
+            </div>
         </footer>
     </body>
 </html>
