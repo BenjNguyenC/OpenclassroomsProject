@@ -51,7 +51,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    margin: 2em;
+    padding: 1em;
 }
 
 .hebergement-item {
@@ -75,13 +79,27 @@ body {
 .populaire {
     display: flex;
     flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    margin: 1.5em;
+    padding: 1em;
 }
+
+.populaire-item {
+    width: 50%;
+}
+
+.populaire-item img {
+    width: 200%;
+}
+
 
 /* Footer */
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: cornflowerblue;
 }
 
 .footer-column {
@@ -95,3 +113,20 @@ footer {
 }
 
 /* Activité Marseille */
+.activities {
+    display: flex;
+    width: 100%;
+    border: black solid 1px;
+}
+
+.activity-item img{
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.activity-item2 img {
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
