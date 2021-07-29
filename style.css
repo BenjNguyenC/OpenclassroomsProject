@@ -76,3 +76,22 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* Activité Marseille */
