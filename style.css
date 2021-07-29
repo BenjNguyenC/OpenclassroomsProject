@@ -1,3 +1,4 @@
+/* style général */
 @font-face {
     font-family: 'Raleway';
     src: url(fonts/static/Raleway-Black.ttf);
@@ -19,4 +20,59 @@
 
 body {
     font-family: 'Raleway', serif;
+}
+
+/* Entête */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navigation nav ul li {
+    padding: 20px;
+}
+
+/* Hébergement Marseille*/
+.hebergements-marseille {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hebergements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.hebergement-item {
+    width: 30%;
+}
+
+.hebergement-item img {
+    width: 40%;
+}
+
+/* étoiles */
+.blue {
+    color: blue;
+}
+
+.grey {
+    color: gray;
+}
+
+/* Hébergement populaire*/
+.populaire {
+    display: flex;
+    flex-direction: column;
 }
