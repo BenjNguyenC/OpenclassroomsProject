@@ -49,9 +49,23 @@ body {
     margin: 2em;
 }
 
+.fa-map-marker-alt:before {
+    border: solid black 1px;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.search .loop {
+    display: none;
+}
+
+.button {
+    
+}
+
 .filters {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .filter-item {
@@ -60,6 +74,19 @@ body {
     border: black solid 1px;
     border-radius: 1em/1em;
     height: 10%;
+    margin: 5px;
+}
+
+.icon-filter {
+    color: blue;
+    background-color: cadetblue;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.fa-money-bill-wave:before , .fa-child:before , .fa-heart:before , .fa-dog:before {
+    margin-top: 4px;
+    display: block;
 }
 
 h1 , p {
@@ -131,9 +158,13 @@ h1 , p {
     margin: 0.5em;
 }
 
-.populaire-item img {
+.populaire-item .image {
     width: 40%;
-    height: 100%;
+}
+
+.populaire-item img {
+    width: 150px ;
+    height: 150px;
     text-align: left;
     background-color: white;
     border-radius: 0.5em 0 0 0.5em;
@@ -172,24 +203,20 @@ footer {
 /* Activité Marseille */
 .activities {
     display: flex;
-    width: 80%;
-    padding: 0.5em;
-    margin: 0.5em;
+    width: 100%;
 }
 
 .activity-item img{ 
     width: 100%;
     max-height: 80%;
-    display: flex;
-    flex-direction: row;
     border-radius: 0.5em 0.5em 0 0;
 }
 
 .activities-container {
     display: flex;
     flex-direction: column;
-
 }
+
 
 .activity-item {
     border-radius: 1em;
