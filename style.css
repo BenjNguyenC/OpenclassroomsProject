@@ -1,7 +1,7 @@
 /* style général */
 @font-face {
     font-family: 'Raleway';
-    src: url(fonts/static/Raleway-Black.ttf);
+    src: url("fonts/static/Raleway-Black.ttf");
     src: url(fonts/static/Raleway-BlackItalic.ttf);
     src: url(fonts/static/Raleway-BoldItalic.ttf);
     src: url(fonts/static/Raleway-ExtraLight.ttf);
@@ -12,6 +12,7 @@
     src: url(fonts/static/Raleway-Medium.ttf);
     src: url(fonts/static/Raleway-MediumItalic.ttf);
     src: url(fonts/static/Raleway-Regular.ttf);
+    font-family: "Raleway-semibold";
     src: url(fonts/static/Raleway-SemiBold.ttf);
     src: url(fonts/static/Raleway-SemiBoldItalic.ttf);
     src: url(fonts/static/Raleway-Thin.ttf);
@@ -20,6 +21,12 @@
 
 body {
     font-family: 'Raleway', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: 900;
 }
 
 /* Entête */
@@ -119,9 +126,6 @@ nav ul li:active {
     display: block;
 }
 
-h1 , p {
-    margin: 0.5em;
-}
 
 /* Hébergement Marseille*/
 .hebergements-marseille {
@@ -141,23 +145,22 @@ h1 , p {
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 1em;
 }
 
 .hebergement-item {
-    width: 29%;
+    width: 28%;
     height: 250px;
     background-color: white;
-    padding: 2px;
+    padding: 4px;
     margin: 0.8em;
-    border-radius: 0.5em;
+    border-radius: 1em;
     box-shadow: 2px 2px 2px 2px lightgrey;
 }
 
 .hebergement-item img {
     width: 100%;
     height: 130px;
-    border-radius: 0.5em 0.5em 0 0;
+    border-radius: 1em 1em 0 0;
 }
 
 /* étoiles */
@@ -185,7 +188,7 @@ h1 , p {
     flex-direction: row;
     padding: 2px;
     background-color: white;
-    border-radius: 0.5em;
+    border-radius: 1em;
     margin: 0.5em;
 }
 
@@ -197,26 +200,29 @@ h1 , p {
 
 .populaire-item img {
     width: 100%;
-    height: 100%;
-    max-height: 150px;
+    height: 160px;
     text-align: left;
-    background-color: white;
-    border-radius: 0.5em 0 0 0.5em;
+    border-radius: 1em 0 0 1em;
     object-fit: cover;
 }
 
 
-.text {
+.description {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
-    background-color: white;
+    padding-left: 0.5em;
+    justify-content: space-between;
+}
+
+.text h3, .text p {
+    margin: 0;
+    
 }
 
 /* Activité Marseille */
 .activities {
     display: flex;
-    width: 100%;
+    flex-direction: row;
 }
 
 .activity-solo-item img {
@@ -238,11 +244,17 @@ h1 , p {
 .activities-container {
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
+}
+
+.activity-solo-item {
+    margin: 0 10px;
 }
 
 
+
 .activity-item, .activity-solo-item {
-    height: 25%;
+    height: 250px;
     border-radius: 1em;
     box-shadow: 5px 5px 5px 5px #f2f2f2;
     margin: 5px;
@@ -260,6 +272,7 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
+    margin-top: 29px;
 }
 
 .footer-column {
