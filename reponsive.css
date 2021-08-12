@@ -2,4 +2,30 @@
     .element {
         font-size: 1em;
     }
+
+    /* Etoile */
+
+    /* Entête */
+    .navigation {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    /* Formulaire */
+
+    /* Filtres */ 
+
+    /* Hébergement Marseille */
+
+
+
+    /* Hébergement populaire */
+
+    .populaire {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* Activité Marseille */
+
+    /* Footer */
 }
