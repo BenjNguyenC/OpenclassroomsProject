@@ -105,8 +105,8 @@ span {
 /* Filtres */
 .filters {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1.8em;
 }
 
 .filters h2 {
@@ -143,6 +143,13 @@ span {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+.fa-info:before {
+    margin-right: 2em;
+    border-radius: 50%;
+    color: #0065FC;
 }
 
 /* Hébergement Marseille*/
@@ -155,6 +162,7 @@ span {
     background-color: #F2F2F2;
     border-radius: 1.5em;
     width: 70%;
+    padding: 2em;
 }
 
 .articles {
@@ -163,6 +171,7 @@ span {
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 1.5em;
+    justify-content: center;
 }
 
 .hebergement-item {
@@ -179,6 +188,16 @@ span {
     width: 100%;
     height: 130px;
     border-radius: 1em 1em 0 0;
+    align-items: center;
+    border: #F2F2F2 solid 5px;
+}
+
+.hebergement-item p {
+    margin: 0.2em 0 0.2em 0;
+}
+
+.hebergement-item h3 {
+    margin-top: 0.3em;
 }
 
 /* étoiles */
@@ -196,7 +215,7 @@ span {
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1.5em;
-    padding: 0.5em;
+    padding: 2em;
     width: 30%;
     margin: 0px 0px 0px 30px;
 }
@@ -208,6 +227,7 @@ span {
     background-color: white;
     border-radius: 1em;
     margin: 0.5em;
+    justify-content: space-between;
 }
 
 .populaire-item .image {
@@ -277,7 +297,7 @@ span {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    box-shadow: #F2F2F2 5px 5px 2px 2px;
+    box-shadow: #F2F2F2 0 0 30px;
 }
 
 
@@ -286,7 +306,7 @@ span {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    box-shadow: #F2F2F2 2px 2px 2px 2px;
+    box-shadow: #F2F2F2 0 0 30px;
 }
 
 
