@@ -3,6 +3,10 @@
         font-size: 1em;
     }
 
+    html {
+        width: 100%;
+    }
+
     /* Etoile */
 
     /* Entête */
@@ -45,6 +49,7 @@
     /* Hébergement populaire */
     .populaire {
         width: 100%;
+        height: 100%;
         margin: 0;
         padding: 0;
 }
@@ -52,6 +57,10 @@
         flex-direction: column-reverse;
         margin: 0;
         max-width: 100%;
+    }
+
+    .populaire-item img {
+        font-size: 40px;
     }
 
     
