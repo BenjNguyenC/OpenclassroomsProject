@@ -63,7 +63,7 @@ h1 {
 
 nav ul li:hover {
     cursor: pointer;
-    background-color: #F2F2F2;
+    border-top: #0065FC solid 2px;
 }
 
 nav ul li:active {
@@ -107,10 +107,11 @@ span {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1.8em;
+    align-items: center;
 }
 
 .filters h2 {
-    margin-right: 2em;
+    margin: 0 2em 0 0;
 }
 
 .filter-item {
@@ -263,7 +264,7 @@ span {
 }
 
 .activity-solo-item img {
-    width: 300px;
+    width: 100%;
     min-height: 477px;
     border-radius: 0.5em 0.5em 0 0;
     object-fit: cover;
@@ -284,25 +285,26 @@ span {
     flex-direction: column;
     margin: 0 10px;
     justify-content: space-between;
+    flex: 1 1 0;
 }
 
 
 .activity-solo-item {
     margin: 0 10px;
     border-radius: 1em;
-    margin: 5px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     box-shadow: #F2F2F2 0 0 30px;
+    flex: 1 1 0;
 }
 
 
 .activity-item {
     border-radius: 1em;
-    margin: 5px;
     display: flex;
     flex-direction: column;
-    box-shadow: #F2F2F2 0 0 30px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
     height: 256px;
 }
 

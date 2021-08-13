@@ -6,11 +6,10 @@
     /* Etoile */
 
     /* Entête */
-    .navigation {
-        display: flex;
-        flex-wrap: wrap-reverse;
+    .navigation nav ul {
+        flex-direction: row-reverse;
+        
     }
-
     /* Formulaire */
 
     /* Filtres */ 
@@ -21,11 +20,16 @@
 
     /* Hébergement populaire */
 
-    .populaire {
-        display: flex;
+    .hebergements-marseille {
         flex-direction: column-reverse;
     }
     /* Activité Marseille */
 
     /* Footer */
+}
+
+@media screen and (max-width: 400px) {
+
+
+
 }
