@@ -34,6 +34,9 @@ h1 {
     font-weight: 900;
 }
 
+a {
+    color: inherit;
+}
 /* Entête */
 .navigation {
     display: flex;
@@ -61,7 +64,7 @@ h1 {
     margin: 2em;
 }
 
-nav ul li:hover {
+.navigation nav ul li:hover {
     cursor: pointer;
     border-top: #0065FC solid 2px;
 }
@@ -328,6 +331,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 2em;
+    width: 1440px;
 }
 
 .footer-column ul {
@@ -336,5 +340,10 @@ footer {
 
 .footer-column ul li {
     list-style-type: none;
-    padding: 5px 5px 5px 0;
+    margin: 14px 0;
 }
+
+.footer-column h2 {
+    margin: 16px 0;
+}
+

@@ -4,7 +4,7 @@
     }
 
     html {
-        width: 100%;
+        min-width: 100%;
     }
 
     /* Etoile */
@@ -75,6 +75,50 @@
     }
 
     /* Footer */
+
+    footer {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-column ul {
+        margin: 0;
+    }
+
+    .footer-column:first-child {
+        margin: 0 0 14px;
+    }
+
+    .footer-column:first-child ul li {
+        margin: 14px 0;
+    }
+
+    .footer-column:first-child ul li:last-child {
+        margin: 14px 0 0;
+    }
+
+    .footer-column ul li:last-child {
+        margin: 16px 0 0;
+    }
+
+    .footer-column {
+        margin: 14px 0;
+        width: 100%;
+    }
+
+    .footer-column:last-child {
+        margin: 14px 0 0;
+    }
+
+    .footer-column ul li {
+        padding: 0;
+        margin: 14px 0;
+    }
+
+    .footer-column h2 {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 400px) {
