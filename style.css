@@ -189,7 +189,6 @@ span {
     height: 130px;
     border-radius: 1em 1em 0 0;
     align-items: center;
-    border: #F2F2F2 solid 5px;
 }
 
 .hebergement-item p {
@@ -287,9 +286,6 @@ span {
     justify-content: space-between;
 }
 
-.activity-item {
-    height: 250px;
-}
 
 .activity-solo-item {
     margin: 0 10px;
@@ -307,6 +303,7 @@ span {
     display: flex;
     flex-direction: column;
     box-shadow: #F2F2F2 0 0 30px;
+    height: 256px;
 }
 
 
