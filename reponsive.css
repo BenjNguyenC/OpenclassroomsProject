@@ -12,9 +12,18 @@
 
         
     }
+
+    header, section {
+        margin: 0;
+    }
     /* Formulaire */
 
     /* Filtres */ 
+    .filters {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: baseline;
+    }
 
     /* Hébergement Marseille */
     .articles {
@@ -22,12 +31,15 @@
         flex-wrap: nowrap;
     }
 
-    .hebergments {
+    .hebergements {
         width: 100%;
+        padding: 0;
     }
 
     .hebergement-item {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     /* Hébergement populaire */
@@ -44,6 +56,14 @@
 
     
     /* Activité Marseille */
+    .activities {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activity-item , .activity-solo-item {
+        padding: 10px;
+    }
 
     /* Footer */
 }
