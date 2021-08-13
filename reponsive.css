@@ -8,6 +8,8 @@
     /* Entête */
     .navigation nav ul {
         flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+
         
     }
     /* Formulaire */
@@ -15,14 +17,32 @@
     /* Filtres */ 
 
     /* Hébergement Marseille */
+    .articles {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
+    .hebergments {
+        width: 100%;
+    }
 
+    .hebergement-item {
+        width: 100%;
+    }
 
     /* Hébergement populaire */
-
+    .populaire {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+}
     .hebergements-marseille {
         flex-direction: column-reverse;
+        margin: 0;
+        max-width: 100%;
     }
+
+    
     /* Activité Marseille */
 
     /* Footer */
