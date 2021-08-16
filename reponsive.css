@@ -26,6 +26,7 @@
         display: block;
         background-color: #0065FC;
         border-radius: none;
+        color: white;
     }
 
     .search span {
@@ -52,7 +53,7 @@
 
     .hebergement-item {
         width: 100%;
-        margin: 0;
+        margin: 10px 0;
         padding: 0;
     }
 
@@ -98,7 +99,7 @@
 
     footer {
         flex-direction: column;
-        padding: 30px;
+        padding: 20px;
     }
 
     .footer-column ul {
@@ -124,6 +125,7 @@
     .footer-column {
         margin: 14px 0;
         width: 100%;
+        padding: 0;
     }
 
     .footer-column:last-child {

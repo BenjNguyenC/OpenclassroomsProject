@@ -21,16 +21,22 @@
 
 body {
     margin: 0;
+    font-family: "Raleway" , "Sans serif" ; 
+}
+
+body section , body header {
+    margin: 0 10px;
     padding: 0;
+    max-width: 100%;
 }
 
 header , section , footer {
     font-family: 'Raleway', serif;
-   /* margin: 0 80px 0 80px;*/
+    /*margin: 0 80px 0 80px;*/
     padding: 0;
 }
 
-h1 {
+h2 {
     font-weight: 900;
 }
 
@@ -203,6 +209,7 @@ span {
     height: 130px;
     border-radius: 1em 1em 0 0;
     align-items: center;
+    object-fit: cover;
 }
 
 .hebergement-item p {
@@ -211,6 +218,10 @@ span {
 
 .hebergement-item h3 {
     margin-top: 0.3em;
+}
+
+.hebergements a:hover {
+
 }
 
 /* étoiles */
