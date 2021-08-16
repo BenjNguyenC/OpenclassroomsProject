@@ -3,9 +3,9 @@
         font-size: 1em;
     }
 
-    html {
+    /* html {
         min-width: 100%;
-    }
+    } */
 
     /* Etoile */
 
@@ -21,6 +21,16 @@
         margin: 0;
     }
     /* Formulaire */
+
+    .search .loop {
+        display: block;
+        background-color: #0065FC;
+        border-radius: none;
+    }
+
+    .search span {
+        display: none;
+    }
 
     /* Filtres */ 
     .filters {
@@ -73,6 +83,16 @@
     .activity-item , .activity-solo-item {
         padding: 10px;
     }
+
+    .activity-item img , .activity-solo-item img {
+        height: 250px;
+        min-height: 250px;
+    }
+
+    
+.activity-item {
+    height: 100%;
+}
 
     /* Footer */
 
