@@ -11,16 +11,37 @@
 
     /* Entête */
     .navigation nav ul {
-        flex-direction: row-reverse;
-        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        flex-wrap: wrap;
 
-        
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    .navigation nav {
+        order: 3;
+        margin-left: 0;
+    }
+
+    .register {
+        order: 2;
+    } 
+
+    .logo {
+        width: 150px;
     }
 
     header, section {
         margin: 0;
     }
+
+
     /* Formulaire */
+    form {
+        justify-content: stretch;
+    }
 
     .search .loop {
         display: block;
@@ -35,8 +56,8 @@
 
     /* Filtres */ 
     .filters {
-        flex-wrap: nowrap;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         align-items: baseline;
     }
 
@@ -44,6 +65,7 @@
     .articles {
         flex-direction: column;
         flex-wrap: nowrap;
+        padding: 0 10px;
     }
 
     .hebergements {
@@ -74,6 +96,10 @@
         font-size: 40px;
     }
 
+    .populaire-item {
+        justify-content: flex-start;
+    }
+
     
     /* Activité Marseille */
     .activities {
@@ -86,14 +112,14 @@
     }
 
     .activity-item img , .activity-solo-item img {
-        height: 250px;
-        min-height: 250px;
+        height: 150px;
+        min-height: 150px;
     }
 
     
-.activity-item {
-    height: 100%;
-}
+    .activity-item {
+        height: 100%;
+    }
 
     /* Footer */
 

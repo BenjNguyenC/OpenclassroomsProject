@@ -2,21 +2,20 @@
 @font-face {
     font-family: 'Raleway';
     src: url("fonts/static/Raleway-Black.ttf");
-    src: url(fonts/static/Raleway-BlackItalic.ttf);
-    src: url(fonts/static/Raleway-BoldItalic.ttf);
-    src: url(fonts/static/Raleway-ExtraLight.ttf);
-    src: url(fonts/static/Raleway-ExtraLightItalic.ttf);
-    src: url(fonts/static/Raleway-Italic.ttf);
-    src: url(fonts/static/Raleway-Light.ttf);
-    src: url(fonts/static/Raleway-LightItalic.ttf);
-    src: url(fonts/static/Raleway-Medium.ttf);
-    src: url(fonts/static/Raleway-MediumItalic.ttf);
-    src: url(fonts/static/Raleway-Regular.ttf);
-    font-family: "Raleway-semibold";
-    src: url(fonts/static/Raleway-SemiBold.ttf);
-    src: url(fonts/static/Raleway-SemiBoldItalic.ttf);
-    src: url(fonts/static/Raleway-Thin.ttf);
-    src: url(fonts/static/Raleway-ThinItalic.ttf);
+    src: url("fonts/static/Raleway-BlackItalic.ttf");
+    src: url("fonts/static/Raleway-BoldItalic.ttf");
+    src: url("fonts/static/Raleway-ExtraLight.ttf");
+    src: url("fonts/static/Raleway-ExtraLightItalic.ttf");
+    src: url("fonts/static/Raleway-Italic.ttf");
+    src: url("fonts/static/Raleway-Light.ttf");
+    src: url("fonts/static/Raleway-LightItalic.ttf");
+    src: url("fonts/static/Raleway-Medium.ttf");
+    src: url("fonts/static/Raleway-MediumItalic.ttf");
+    src: url("fonts/static/Raleway-Regular.ttf");
+    src: url("fonts/static/Raleway-SemiBold.ttf");
+    src: url("fonts/static/Raleway-SemiBoldItalic.ttf");
+    src: url("fonts/static/Raleway-Thin.ttf");
+    src: url("fonts/static/Raleway-ThinItalic.ttf");
 }
 
 body {
@@ -47,8 +46,12 @@ a {
 .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+}
+
+.navigation nav {
+    margin-left: auto;
+    order: 2;
 }
 
 .navigation nav ul{
@@ -63,6 +66,10 @@ a {
 
 .nounderline {
     text-decoration: none;
+}
+
+.register {
+    order: 3;
 }
 
 .logo {
@@ -133,6 +140,11 @@ span {
     height: 45px;
     margin-right: 2em;
     margin-bottom: 10px;
+}
+
+.filter-item:hover {
+    background-color: #0065FC;
+    color: white;
 }
 
 .filter-item p {
@@ -220,8 +232,9 @@ span {
     margin-top: 0.3em;
 }
 
-.hebergements a:hover {
-
+.hebergement-item:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
 }
 
 /* étoiles */
@@ -242,6 +255,14 @@ span {
     padding: 2em;
     width: 30%;
     margin: 0px 0px 0px 30px;
+}
+
+.populaire .head {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .populaire-item {
@@ -330,6 +351,10 @@ span {
     flex-direction: column;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     height: 256px;
+}
+
+.extra-height {
+    height: 280px;
 }
 
 
