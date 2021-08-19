@@ -70,6 +70,8 @@ a {
 
 .register {
     order: 3;
+    color: #0065FC;
+    font-weight: 900;
 }
 
 .logo {
