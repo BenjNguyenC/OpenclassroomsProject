@@ -17,11 +17,12 @@
         flex-wrap: wrap;
         width: 100%;
         padding: 0;
-        justify-content: start;
+        justify-content: space-around;
     }
 
     .navigation nav ul li {
         width: 38%;
+        font-size: 150%;
     }
 
     .navigation {
@@ -50,6 +51,7 @@
         padding: 1em;
         color: #0065FC;
         font-weight: 900;
+        font-size: 150%;
     }
 
     .logo {
