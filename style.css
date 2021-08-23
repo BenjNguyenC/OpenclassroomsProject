@@ -31,13 +31,13 @@ body section , body header {
 
 header , section , footer {
     font-family: "Raleway", serif;
-    /*margin: 0 80px 0 80px;*/
     padding: 0;
 }
 
 h2 {
     font-weight: 900;
 }
+
 
 a {
     color: inherit;
@@ -84,9 +84,6 @@ a {
     border-top: #0065FC solid 2px;
 }
 
-nav ul li:active {
-    color: green;
-    }
 /* Formulaire */
 .search {
     display: flex;
@@ -275,6 +272,8 @@ span {
     border-radius: 1em;
     margin: 0.5em;
     justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+
 }
 
 .populaire-item .image {
@@ -307,6 +306,10 @@ span {
 .text h3, .text p {
     margin: 0;
     
+}
+
+.showmore {
+    margin: 0.5em;
 }
 
 /* Activité Marseille */
@@ -347,7 +350,7 @@ span {
     margin: 0 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 2px 2px 2px 2px lightgrey;
     flex: 1 1 0;
 }
 
@@ -356,7 +359,7 @@ span {
     border-radius: 1em;
     display: flex;
     flex-direction: column;
-    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    box-shadow: 2px 2px 2px 2px lightgrey;
     height: 256px;
 }
 

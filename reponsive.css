@@ -21,8 +21,9 @@
     }
 
     .navigation nav ul li {
-        width: 38%;
-        font-size: 150%;
+        width: 35%;
+        font-size: 120%;
+        text-align: center;
     }
 
     .navigation {
@@ -51,11 +52,12 @@
         padding: 1em;
         color: #0065FC;
         font-weight: 900;
-        font-size: 150%;
+        font-size: 120%;
     }
 
     .logo {
-        width: 150px;
+        width: 100px;
+        margin: 0.8em;
     }
 
     header, section {
@@ -96,6 +98,7 @@
     .hebergements {
         width: 100%;
         padding: 0;
+        background-color: white;
     }
 
     .hebergement-item {
@@ -146,6 +149,7 @@
 
     .activity-item , .activity-solo-item {
         padding: 10px;
+        margin: 10px 0;
     }
 
     .activity-item img , .activity-solo-item img {
@@ -158,6 +162,10 @@
         height: 100%;
     }
 
+    .activities-container {
+        width: 100%;
+        margin: 0;
+    }
     /* Footer */
 
     footer {
