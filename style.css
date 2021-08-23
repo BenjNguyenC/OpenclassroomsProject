@@ -43,9 +43,6 @@ a {
     color: inherit;
 }
 
-.navigation ul li, .register, .filter-item p, .filter-info p {
-    font-weight: 900;
-}
 /* Entête */
 .navigation {
     display: flex;
