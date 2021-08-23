@@ -81,6 +81,10 @@
         display: none;
     }
 
+    .search input {
+        flex-grow: 1;
+    }
+
     /* Filtres */ 
     .filters {
         flex-wrap: wrap;
