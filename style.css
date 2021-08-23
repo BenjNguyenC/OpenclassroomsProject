@@ -34,13 +34,17 @@ header , section , footer {
     padding: 0;
 }
 
-h2 {
+h2 , .navigation ul li, .register, .filter-item p, .filter-info p, .description{
     font-weight: 900;
 }
 
 
 a {
     color: inherit;
+}
+
+.navigation ul li, .register, .filter-item p, .filter-info p {
+    font-weight: 900;
 }
 /* Entête */
 .navigation {
