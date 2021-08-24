@@ -3,12 +3,6 @@
         font-size: 1em;
     }
 
-    /* html {
-        min-width: 100%;
-    } */
-
-    
-
     /* Etoile */
 
     /* Entête */
@@ -123,6 +117,10 @@
         opacity: 0.9;
         transform: scale(1);
         box-shadow: 2px 2px 2px 2px darkgrey;
+    }
+
+    .showmore {
+        margin: 0.8em;
     }
     /* Hébergement populaire */
      .populaire {

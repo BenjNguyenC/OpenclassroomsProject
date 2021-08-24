@@ -1,24 +1,5 @@
 /* style général */
 @font-face {
-    font-family: 'Raleway';
-    src: url("fonts/static/Raleway-Black.ttf");
-    src: url("fonts/static/Raleway-BlackItalic.ttf");
-    src: url("fonts/static/Raleway-BoldItalic.ttf");
-    src: url("fonts/static/Raleway-ExtraLight.ttf");
-    src: url("fonts/static/Raleway-ExtraLightItalic.ttf");
-    src: url("fonts/static/Raleway-Italic.ttf");
-    src: url("fonts/static/Raleway-Light.ttf");
-    src: url("fonts/static/Raleway-LightItalic.ttf");
-    src: url("fonts/static/Raleway-Medium.ttf");
-    src: url("fonts/static/Raleway-MediumItalic.ttf");
-    src: url("fonts/static/Raleway-Regular.ttf");
-    src: url("fonts/static/Raleway-SemiBold.ttf");
-    src: url("fonts/static/Raleway-SemiBoldItalic.ttf");
-    src: url("fonts/static/Raleway-Thin.ttf");
-    src: url("fonts/static/Raleway-ThinItalic.ttf");
-}
-
-@font-face {
     font-family: 'Raleway Regular';
     src: url("fonts/static/Raleway-Regular.ttf");
     
@@ -29,9 +10,16 @@
     src: url("fonts/static/Raleway-SemiBold.ttf");
     
 }
+
+@font-face {
+    font-family: 'Raleway Black';
+    src: url("fonts/static/Raleway-Black.ttf");
+    
+}
+
 body {
     margin: 0;
-    font-family: "Raleway" , "Sans serif" ; 
+    font-family: "Raleway Regular" , "Sans serif" ; 
 }
 
 body section , body header {
@@ -40,13 +28,21 @@ body section , body header {
     max-width: 100%;
 }
 
-header , section , footer {
-    font-family: "Raleway", serif;
+header , section , footer , .activities h2 {
+    font-family: "Raleway SemiBold", serif;
     padding: 0;
 }
 
-h2 , .navigation ul li, .register, .filter-item p, .filter-info p, .description{
+.navigation ul li, .register, .filter-info p, .description{
     font-family: "Raleway SemiBold";
+}
+
+h1 , .filter-item p , h2 , .search input , .showmore{
+    font-family: "Raleway Black";
+}
+
+.hebergement-item p , .populaire-item p , h3 {
+    font-family: "Raleway Regular";
 }
 
 
@@ -329,7 +325,7 @@ span {
 }
 
 .showmore {
-    margin: 0.5em;
+    margin: 3em;
 }
 
 /* Activité Marseille */
