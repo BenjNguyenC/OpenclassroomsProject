@@ -119,6 +119,11 @@
         margin-left: 0.5em;
     }
 
+    .hebergement-item:hover {
+        opacity: 0.9;
+        transform: scale(1);
+        box-shadow: 2px 2px 2px 2px darkgrey;
+    }
     /* Hébergement populaire */
      .populaire {
         width: 100%;
@@ -134,6 +139,7 @@
 
     .populaire-item img {
         font-size: 40px;
+        border-radius: 0.4em 0 0 0.4em;
     }
 
     .populaire-item {
@@ -142,6 +148,12 @@
 
     .fa-chart-line:before {
         padding: 1em;
+    }
+
+    .populaire-item:hover {
+        opacity: 0.9;
+        transform: scale(1);
+        box-shadow: 2px 2px 2px 2px darkgrey;
     }
 
     
