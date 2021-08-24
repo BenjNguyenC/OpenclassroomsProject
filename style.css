@@ -17,23 +17,17 @@
     
 }
 
-body {
-    margin: 0;
-    font-family: "Raleway Regular" , "Sans serif" ; 
-}
-
 body section , body header {
     margin: 0 10px;
     padding: 0;
     max-width: 100%;
 }
 
-header , section , footer , .activities h2 {
-    font-family: "Raleway SemiBold", serif;
+header , section , footer {
     padding: 0;
 }
 
-.navigation ul li, .register, .filter-info p, .description{
+.navigation ul li, .register, .filter-info p, .description , .activities h2{
     font-family: "Raleway SemiBold";
 }
 
